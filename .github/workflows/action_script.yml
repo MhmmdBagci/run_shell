@@ -3,7 +3,7 @@ name: Action Shell
 on:
   push:
     branches:
-      - Master
+      - master
   pull_request:
 
 jobs:
