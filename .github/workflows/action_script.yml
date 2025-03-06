@@ -1,0 +1,23 @@
+name: Action Shell
+
+on:
+  push:
+    branches:
+      - Master
+  pull_request:
+
+jobs:
+  run-script:
+    runs_on: ubuntu-latest
+
+    steps:
+      - name: Repository klonen
+        run: git clone https://github.com/MhmmdBagci/run_shell.git
+
+      - name: Shel script ausführen
+        run: |
+          chmod +x bash_script.sh #script ausführbar machen
+          ./bash_script.sh #ausführen
+
+  
+
