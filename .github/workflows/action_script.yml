@@ -16,7 +16,7 @@ jobs:
 
       - name: Shel script ausführen
         run: |
-          cd action_shel # in den ordner vom shell script wechseln
+          cd run_shell # in den ordner vom shell script wechseln
           chmod +x bash_script.sh #script ausführbar machen
           ./bash_script.sh #ausführen
 
