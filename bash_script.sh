@@ -2,7 +2,7 @@
 
 echo "Hallo, Muhammed"
 
-DATEI= "bash_script.sh"
+DATEI="bash_script.sh"
 
 if [ -f "$DATEI" ]; then
     echo "Die Datei '$DATEI' existiert."
